@@ -3,9 +3,10 @@ package com.driver;
 public class Main {
   public static void main(String args[]){
       B b1=new B();
-      System.out.println(b1.meth());
-      //Invoking method from class A
-      System.out.println(b1.meth());
+//      System.out.println(b1.meth());
+//      //Invoking method from class A
+//      System.out.println(b1.meth());
+      b1.meth();
   }
   static class A{
       public String meth(){
