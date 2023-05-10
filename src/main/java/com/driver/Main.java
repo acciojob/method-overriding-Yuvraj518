@@ -8,12 +8,12 @@ public class Main {
 //      System.out.println(b1.meth());
       b1.meth();
   }
-  static class A{
+  public static class A{
       public String meth(){
           return "Invoking method from class A";
       }
   }
-  static class B extends A{
+  public static class B extends A{
     @Override
       public String meth(){
           return "Method is overridden in Extended class B";
